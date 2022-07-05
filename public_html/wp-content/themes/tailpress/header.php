@@ -18,10 +18,10 @@
 
         <?php do_action( 'tailpress_header' ); ?>
 
-        <header>
+        <header class="fixed w-full">
 
             <div class="mx-auto container px-4">
-                <div class="lg:flex lg:justify-between lg:items-center border-b py-6">
+                <div class="lg:flex lg:justify-between lg:items-center border-b py-2">
                     <div class="flex flex-col md:flex-row justify-between items-center w-full">
                         <div class="w-[212px]">
                             <?php if ( has_custom_logo() ) { ?>
@@ -45,10 +45,10 @@
                             	<?php while( have_rows('home_page')): the_row();?>
                             		<?php if(get_row_layout() === 'home_page_content'):?>
 									<a href="<?php echo get_sub_field('twitter_account'); ?>" target="_blank" rel="noopener"
-                                		class="fa-brands fa-twitter hover:text-red-500 transition-colors ease-out text-xl"></a>
+                                		class="fa-brands fa-twitter text-light hover:text-red-500 transition-colors ease-out text-xl"></a>
 									<a href="<?php echo get_sub_field('github_account'); ?>" target="_blank" rel="noopener"
-										class="fa-brands fa-github hover:text-red-500 transition-colors ease-out text-xl"></a>
-									<a href="mailto:<?php echo get_sub_field('header_email_address'); ?>" class="fa-solid fa-envelope hover:text-red-500 transition-colors ease-out text-xl"></a>
+										class="fa-brands fa-github text-light hover:text-red-500 transition-colors ease-out text-xl"></a>
+									<a href="mailto:<?php echo get_sub_field('header_email_address'); ?>" class="fa-solid fa-envelope text-light hover:text-red-500 transition-colors ease-out text-xl"></a>
                             		<?php endif; ?>
                             	<?php endwhile?>
                             <?php endif; ?>

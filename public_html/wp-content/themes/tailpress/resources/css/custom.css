@@ -1,9 +1,9 @@
 .top-banner-h1 {
-    @apply text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-light max-w-[375px] md:max-w-full mx-auto;
+    @apply text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold text-light max-w-[375px] md:max-w-full mx-auto;
 }
 
 .top-banner-span {
-    @apply text-red-500 inline-block font-semibold;
+    @apply text-red-500 inline-block;
 }
 
 .paragraph-space {

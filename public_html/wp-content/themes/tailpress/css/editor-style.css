@@ -44,6 +44,10 @@
   }
 }
 
+.static {
+  position: static
+}
+
 .fixed {
   position: fixed
 }
@@ -54,6 +58,11 @@
 
 .relative {
   position: relative
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky
 }
 
 .right-20 {
@@ -137,6 +146,10 @@
 
 .h-6 {
   height: 1.5rem
+}
+
+.h-screen {
+  height: 100vh
 }
 
 .min-h-screen {
@@ -258,6 +271,31 @@
   background-color: rgb(243 244 246 / var(--tw-bg-opacity))
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity))
+}
+
+.bg-opacity-75 {
+  --tw-bg-opacity: 0.75
+}
+
+.bg-opacity-25 {
+  --tw-bg-opacity: 0.25
+}
+
+.bg-cover {
+  background-size: cover
+}
+
+.bg-center {
+  background-position: center
+}
+
+.bg-bottom {
+  background-position: bottom
+}
+
 .p-4 {
   padding: 1rem
 }
@@ -290,6 +328,46 @@
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem
+}
+
+.py-32 {
+  padding-top: 8rem;
+  padding-bottom: 8rem
+}
+
+.py-52 {
+  padding-top: 13rem;
+  padding-bottom: 13rem
+}
+
+.py-56 {
+  padding-top: 14rem;
+  padding-bottom: 14rem
+}
+
+.py-64 {
+  padding-top: 16rem;
+  padding-bottom: 16rem
+}
+
+.pt-7 {
+  padding-top: 1.75rem
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem
+}
+
+.pt-5 {
+  padding-top: 1.25rem
+}
+
+.pt-64 {
+  padding-top: 16rem
+}
+
+.pt-56 {
+  padding-top: 14rem
 }
 
 .text-center {
@@ -345,6 +423,18 @@
   font-weight: 600
 }
 
+.font-thin {
+  font-weight: 100
+}
+
+.font-normal {
+  font-weight: 400
+}
+
+.font-medium {
+  font-weight: 500
+}
+
 .uppercase {
   text-transform: uppercase
 }
@@ -386,6 +476,11 @@
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity))
+}
+
+.text-light {
+  --tw-text-opacity: 1;
+  color: rgb(249 250 251 / var(--tw-text-opacity))
 }
 
 .antialiased {
@@ -600,6 +695,43 @@ body {
     padding-bottom: 4rem
   }
 
+  .lg\:py-72 {
+    padding-top: 18rem;
+    padding-bottom: 18rem
+  }
+
+  .lg\:py-80 {
+    padding-top: 20rem;
+    padding-bottom: 20rem
+  }
+
+  .lg\:py-96 {
+    padding-top: 24rem;
+    padding-bottom: 24rem
+  }
+
+  .lg\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem
+  }
+
+  .lg\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem
+  }
+
+  .lg\:pt-80 {
+    padding-top: 20rem
+  }
+
+  .lg\:pb-96 {
+    padding-bottom: 24rem
+  }
+
+  .lg\:pt-72 {
+    padding-top: 18rem
+  }
+
   .lg\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem
@@ -634,6 +766,11 @@ body {
 
   .xl\:text-6xl {
     font-size: 3.75rem;
+    line-height: 1
+  }
+
+  .xl\:text-5xl {
+    font-size: 3rem;
     line-height: 1
   }
 }
